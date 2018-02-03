@@ -1,14 +1,33 @@
 {
-    "name": "aiershou/aliyun-mq",
-    "description": "aliyun-mq library",
-    "type": "library",
+    "name": "phalconer/fzm-message-queue",
+    "description": "Yii2 复杂美消息队列",
+    "keywords": [
+        "yii2",
+        "FzmMessageQueue"
+    ],
+    "homepage": "https://github.com/phalconer/fzm-message-queue",
+    "type": "yii2-extension",
     "license": "MIT",
+    "support": {
+        "source": "https://github.com/phalconer/fzm-message-queue"
+    },
+    "authors": [
+        {
+            "name": "lin.yang",
+            "email": "yangl@disanbo.com"
+        }
+    ],
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.0.0",
-        "guzzlehttp/guzzle": "^6.2"
+        "yiisoft/yii2": ">=2.0.6"
     },
     "autoload": {
-        "psr-4": { "aiershou\\aliyunmq\\": "src/" }
+        "psr-4": {
+            "terry\\": ""
+        }
+    },
+    "config": {
+        "process-timeout": 1800
     }
 }
