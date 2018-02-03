@@ -1,0 +1,14 @@
+{
+    "name": "aiershou/aliyun-mq",
+    "description": "aliyun-mq library",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": { "aiershou\\aliyunmq\\": "src/" }
+    }
+}
