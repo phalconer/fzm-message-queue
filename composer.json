@@ -1,15 +1,15 @@
 {
-    "name": "phalconer/FzmMessageQueue",
+    "name": "phalconer/fzm-message-queue",
     "description": "Yii2 复杂美消息队列",
     "keywords": [
         "yii2",
         "FzmMessageQueue"
     ],
-    "homepage": "https://github.com/phalconer/FzmMessageQueue",
+    "homepage": "https://github.com/phalconer/fzm-message-queue",
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "source": "https://github.com/phalconer/FzmMessageQueue"
+        "source": "https://github.com/phalconer/fzm-message-queue"
     },
     "authors": [
         {
